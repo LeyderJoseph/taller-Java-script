@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjetas LocalStorage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="app">
+
+        <h1>MIS CARTAS POKEMON</h1>
+
+        <section class="panel-formulario">
+            <h2>Formulario:</h2>
+            <label for="inputNombre">NOMBRE:</label>
+            <input type="text" id="inputNombre" placeholder="nombre">
+            <br>
+            <label for="inputDescripcion">DESCRIPCION:</label>
+            <input type="text" id="inputDescripcion" placeholder="descripcion">
+            <br>
+            <label for="inputImagen">IMAGEN (URL):</label>
+            <input type="text" id="inputImagen" placeholder="https://...jpg">
+            <br>
+            <button id="btnAgregar">AGREGAR CARTA</button>
+        </section>
+
+        <hr>
+
+        <section id="contenedorTarjetas"></section>
+
+        <button id="btnLimpiar">Mandar todo con Diosito</button>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
